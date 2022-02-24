@@ -1,0 +1,580 @@
+
+
+
+/********************************************KEYFRAMES********************************************/
+
+
+@keyframes turn-around-sphere
+    {
+    100% { transform: rotateY(360deg); }
+    }
+
+@keyframes balancier
+    {
+    0%   {transform: rotateZ(40deg); }
+    100% {transform: rotateZ(-40deg); }
+    }
+
+@keyframes turn-around-base 
+    {
+    100% { transform: rotateY(360deg); }
+    }
+
+@keyframes shadow 
+    {
+    0%    { left: -630px;}
+    100%  { left: 250px;}
+    }
+
+/******************************************GENERAL****************************************/
+
+
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+.space * {
+    transform-style: preserve-3d;
+}
+
+.space {
+    position: absolute;
+    top: -25%;
+    height: 100%;
+    width: 100%;
+    perspective: 800px;
+}
+
+.pendulum {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation: balancier 1s ease-in-out alternate infinite;
+}
+
+/*******************************TUBE*******************************/
+
+.pendulum .tube {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(370px);
+    /* perspective: 800px; */
+}
+
+.tube .floor {
+    position: absolute;
+    top: calc(-50px / 2);
+    left: calc(-50px / 2);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.tube .floor.step-0 {
+    transform: rotateX(90deg) translateZ(100px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-1 {
+    transform: rotateX(90deg) translateZ(105px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-2 {
+    transform: rotateX(90deg) translateZ(110px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-3 {
+    transform: rotateX(90deg) translateZ(115px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-4 {
+    transform: rotateX(90deg) translateZ(120px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-5 {
+    transform: rotateX(90deg) translateZ(125px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-6 {
+    transform: rotateX(90deg) translateZ(130px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-7 {
+    transform: rotateX(90deg) translateZ(135px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-8 {
+    transform: rotateX(90deg) translateZ(140px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-9 {
+    transform: rotateX(90deg) translateZ(145px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-10 {
+    transform: rotateX(90deg) translateZ(150px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-11 {
+    transform: rotateX(90deg) translateZ(155px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-12 {
+    transform: rotateX(90deg) translateZ(160px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-13 {
+    transform: rotateX(90deg) translateZ(165px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-14 {
+    transform: rotateX(90deg) translateZ(170px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-15 {
+    transform: rotateX(90deg) translateZ(175px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-16 {
+    transform: rotateX(90deg) translateZ(180px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-17 {
+    transform: rotateX(90deg) translateZ(185px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-18 {
+    transform: rotateX(90deg) translateZ(190px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-19 {
+    transform: rotateX(90deg) translateZ(195px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-20 {
+    transform: rotateX(90deg) translateZ(200px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-21 {
+    transform: rotateX(90deg) translateZ(205px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-22 {
+    transform: rotateX(90deg) translateZ(210px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-23 {
+    transform: rotateX(90deg) translateZ(215px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-24 {
+    transform: rotateX(90deg) translateZ(220px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-25 {
+    transform: rotateX(90deg) translateZ(225px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-26 {
+    transform: rotateX(90deg) translateZ(230px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-27 {
+    transform: rotateX(90deg) translateZ(235px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-28 {
+    transform: rotateX(90deg) translateZ(240px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-29 {
+    transform: rotateX(90deg) translateZ(245px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-30 {
+    transform: rotateX(90deg) translateZ(250px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-31 {
+    transform: rotateX(90deg) translateZ(255px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-32 {
+    transform: rotateX(90deg) translateZ(260px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-33 {
+    transform: rotateX(90deg) translateZ(265px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-34 {
+    transform: rotateX(90deg) translateZ(270px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-35 {
+    transform: rotateX(90deg) translateZ(275px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-36 {
+    transform: rotateX(90deg) translateZ(280px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-37 {
+    transform: rotateX(90deg) translateZ(285px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-38 {
+    transform: rotateX(90deg) translateZ(290px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-39 {
+    transform: rotateX(90deg) translateZ(295px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-40 {
+    transform: rotateX(90deg) translateZ(300px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-41 {
+    transform: rotateX(90deg) translateZ(305px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-42 {
+    transform: rotateX(90deg) translateZ(310px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-43 {
+    transform: rotateX(90deg) translateZ(315px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-44 {
+    transform: rotateX(90deg) translateZ(320px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-45 {
+    transform: rotateX(90deg) translateZ(325px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-46 {
+    transform: rotateX(90deg) translateZ(330px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-47 {
+    transform: rotateX(90deg) translateZ(335px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-48 {
+    transform: rotateX(90deg) translateZ(340px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-49 {
+    transform: rotateX(90deg) translateZ(345px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-50 {
+    transform: rotateX(90deg) translateZ(350px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-51 {
+    transform: rotateX(90deg) translateZ(355px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-52 {
+    transform: rotateX(90deg) translateZ(360px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-53 {
+    transform: rotateX(90deg) translateZ(365px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-54 {
+    transform: rotateX(90deg) translateZ(370px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.tube .floor.step-55 {
+    transform: rotateX(90deg) translateZ(375px);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+/*---------------------------------SPHERE----------------------------------------------*/
+
+.sphere {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(370px);
+}
+
+.sphere .pivot {
+    animation: turn-around-sphere 7s 1s infinite linear;
+}
+
+.sphere .layer {
+    position: absolute;
+    top: calc(-200px / 2);
+    left: calc(-200px / 2);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px dashed  rgb(255, 255, 255);
+}
+
+.sphere .layer.level-0 {
+    transform: rotateY(5deg);
+}
+
+.sphere .layer.level-1 {
+    transform: rotateY(10deg);
+}
+
+.sphere .layer.level-2 {
+    transform: rotateY(15deg);
+}
+
+.sphere .layer.level-3 {
+    transform: rotateY(20deg);
+}
+
+.sphere .layer.level-4 {
+    transform: rotateY(25deg);
+}
+
+.sphere .layer.level-5 {
+    transform: rotateY(30deg);
+}
+
+.sphere .layer.level-6 {
+    transform: rotateY(35deg);
+}
+
+.sphere .layer.level-7 {
+    transform: rotateY(40deg);
+}
+
+.sphere .layer.level-8 {
+    transform: rotateY(45deg);
+}
+
+.sphere .layer.level-9 {
+    transform: rotateY(50deg);
+}
+
+.sphere .layer.level-10 {
+    transform: rotateY(55deg);
+}
+
+.sphere .layer.level-11 {
+    transform: rotateY(60deg);
+}
+
+.sphere .layer.level-12 {
+    transform: rotateY(65deg);
+}
+
+.sphere .layer.level-13 {
+    transform: rotateY(70deg);
+}
+
+.sphere .layer.level-14 {
+    transform: rotateY(75deg);
+}
+
+.sphere .layer.level-15 {
+    transform: rotateY(80deg);
+}
+
+.sphere .layer.level-16 {
+    transform: rotateY(85deg);
+}
+
+.sphere .layer.level-17 {
+    transform: rotateY(90deg);
+}
+
+.sphere .layer.level-18 {
+    transform: rotateY(95deg);
+}
+
+.sphere .layer.level-19 {
+    transform: rotateY(100deg);
+}
+
+.sphere .layer.level-20 {
+    transform: rotateY(105deg);
+}
+
+.sphere .layer.level-21 {
+    transform: rotateY(110deg);
+}
+
+.sphere .layer.level-22 {
+    transform: rotateY(115deg);
+}
+
+.sphere .layer.level-23 {
+    transform: rotateY(120deg);
+}
+
+.sphere .layer.level-24 {
+    transform: rotateY(125deg);
+}
+
+.sphere .layer.level-25 {
+    transform: rotateY(130deg);
+}
+
+.sphere .layer.level-26 {
+    transform: rotateY(135deg);
+}
+
+.sphere .layer.level-27 {
+    transform: rotateY(140deg);
+}
+
+.sphere .layer.level-28 {
+    transform: rotateY(145deg);
+}
+
+.sphere .layer.level-29 {
+    transform: rotateY(150deg);
+}
+
+.sphere .layer.level-30 {
+    transform: rotateY(155deg);
+}
+
+.sphere .layer.level-31 {
+    transform: rotateY(160deg);
+}
+
+.sphere .layer.level-32 {
+    transform: rotateY(165deg);
+}
+
+.sphere .layer.level-33 {
+    transform: rotateY(170deg);
+}
+
+.sphere .layer.level-34 {
+    transform: rotateY(175deg);
+}
+
+.sphere .layer.level-35 {
+    transform: rotateY(180deg);
+}
+
+/***********************************TRIANGLE***********************************/
+
+.forme {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+}
+
+.forme .pivot {
+    animation: turn-around-base 10s linear infinite ;
+}
+
+.forme .base {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: calc(200px / 2);
+    left: calc(-200px / 2);
+    width: 200px;
+    height: 200px;
+}
+
+.forme .face {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: calc(-200px / 2);
+    left: calc(-200px / 2);
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-size: cover;
+}
+
+.forme .square {
+    transform: rotateX(-90deg);
+    background-image: url(../images/texture-base.jpg);
+}
+
+.forme .triangle-one {
+ transform: translateZ(50px) translateY(114px) rotateX(30deg);
+ background-image: url(../images/triangle-2.png);
+}
+
+.forme .triangle-two {
+    transform: rotateY(90deg) translateZ(-15px) rotateX(30deg) translateY(130px);
+    background-image: url(../images/triangle-2.png);
+}
+.forme .triangle-three {
+    transform: rotateY(-90deg) translateZ(-15px) rotateX(30deg) translateY(130px);
+    background-image: url(../images/triangle-2.png);
+}
+
+.forme .triangle-four {
+    transform: translateZ(-50px) translateY(114px) rotateX(-30deg);
+    background-image: url(../images/triangle-2.png);
+}
